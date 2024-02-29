@@ -7,8 +7,6 @@ body {background-color: lightgray;}
     padding: 20px;
     background-color: black;
     color: white;
-
-    
 }
 
 .header h1{
@@ -34,4 +32,8 @@ font-size: 36px;
     display: inline-block;
     margin-left: 25px;
     text-decoration: underline;
+}
+
+.footer ul li {
+    list-style-type: none;
 }
