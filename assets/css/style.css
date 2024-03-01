@@ -1,4 +1,4 @@
-/* 
+
 body {background-color: lightgray;}
 
 
@@ -14,21 +14,22 @@ body {background-color: lightgray;}
 display: flex;
 justify-content: left;
 font-size: 32px;
-
+width:30%;
 }
 
 .header ul {
     display: flex;
     flex-direction: row;
-    flex: end;
+    justify-content: space-evenly;
+    width: 100%;
 
 }
 
 .header nav { 
     display: flex;
-    flex: content;
+    justify-content: space-evenly;
     height: 15px;
-
+    width:65%;
 
 }
 
@@ -42,10 +43,55 @@ font-size: 32px;
     display: inline-block;
     margin-left: 25px;
     text-decoration: underline;
-} */
+} 
 
-
-#Work {
+.row{
+    display:flex;
+    gap:2%;
+    padding: 1%;
+    margin: 1%;
+}
+.col-1{
+    width:20%;
+    border-right: 5px solid black;
+}
+.col-2{
+    width:70%;
+    display: flex;
+    gap:2%;
+}
+.col-1 h2{
+    font-size: 1.5rem;
+    text-align: right;
+    padding-right: 1%;;
+}
+.headshot{
+    width:30%;
+    border-radius: 20px;
+}
+#projects-list{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap:5%;
+}
+.project{
+    width:43%;
+    border:5px solid black;
+    position: relative;
+}
+.project img{
+    width:100%;
+}
+.main{
+    width:100%;
+}
+.project-title {
+    position:absolute;
+    bottom:10px;
+    background-color: gray;
+    font-size: 1.5rem;
+}
+/* #Work {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -60,19 +106,22 @@ font-size: 32px;
 }
 
 
-/* .footer ul li {
-    list-style-type: none;
-    display: inline-block;
-    margin-left: 260px;
 
-} */
 
 #Work :nth-child(1) {
     flex-grow: 1;
     flex-shrink: 0;
     flex-basis: 100%;
-}
-
-/* img{
-    width: 10%;
 } */
+
+
+
+footer ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 260px;
+
+} 
+footer {
+    background-color: aqua;
+}
