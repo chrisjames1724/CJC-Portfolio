@@ -1,4 +1,4 @@
-//* Background color of the body of the page*/
+/* Background color of the body of the page*/
 body {background-color: lightgray;}
 
 
@@ -11,35 +11,21 @@ body {background-color: lightgray;}
 }
 
 
-.header h1{
-display: flex;
-justify-content: left;
-font-size: 32px;
-width:30%;
-}
-
 .header ul {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    width: 100;
-
-}
-
-.header nav { 
-    display: flex;
-    justify-content: space-evenly;
-    height: 35px;
-    width:65%;
+    width: 90%;
 
 }
 
 
 .header nav ul li {
     display: inline-block;
-    margin-left: 25px;
+    margin-left: 55px;
     text-decoration: underline;
-    color: aliceblue;
+    color: blue;
+   
 } 
 
 .row{
