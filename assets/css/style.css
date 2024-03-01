@@ -1,4 +1,4 @@
-
+//* Background color of the body of the page*/
 body {background-color: lightgray;}
 
 
@@ -9,6 +9,7 @@ body {background-color: lightgray;}
     background-color: black;
     color: aqua;
 }
+
 
 .header h1{
 display: flex;
@@ -21,28 +22,24 @@ width:30%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    width: 100%;
+    width: 100;
 
 }
 
 .header nav { 
     display: flex;
     justify-content: space-evenly;
-    height: 15px;
+    height: 35px;
     width:65%;
 
 }
 
-.header nav ul {
-    list-style-type: none;
-    color: aquamarine;
-    
-}
 
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
     text-decoration: underline;
+    color: aliceblue;
 } 
 
 .row{
@@ -88,38 +85,14 @@ width:30%;
 .project-title {
     position:absolute;
     bottom:10px;
-    background-color: gray;
+    background-color: white;
     font-size: 1.5rem;
 }
-/* #Work {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-
-}
-
-#Work :nth-child(n+2) {
-     flex-grow: 1;
-     flex-shrink: 0;
-     flex-basis: 45%;
-}
-
-
-
-
-#Work :nth-child(1) {
-    flex-grow: 1;
-    flex-shrink: 0;
-    flex-basis: 100%;
-} */
-
-
 
 footer ul li {
     list-style-type: none;
     display: inline-block;
-    margin-left: 260px;
+    margin-left: 160px;
 
 } 
 footer {
